@@ -12,7 +12,7 @@ import {
   let gasEstimateResponse1 = await sdk.estimateGasFee(
     "osmosis",
     "Avalanche",
-    "aUSDC",
+    "axlUSDC",
     220000,
     1,
     undefined,
@@ -29,8 +29,8 @@ import {
 
   let gasEstimateResponse2 = await sdk.estimateGasFee(
     "osmosis",
-    "Avalanche",
-    "aUSDC",
+    "Polygon",
+    "axlUSDC",
     220000,
     1,
     undefined,
